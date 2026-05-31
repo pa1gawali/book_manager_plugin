@@ -50,9 +50,10 @@ A WordPress plugin for managing a restricted Books collection.
 
 ## Screenshots
 
-Add screenshots to `assets/images/` and they'll appear below. Replace the filenames with your actual screenshots.
+The plugin now includes uploaded screenshot files in `assets/images/`.
 
-- ![Books Listing](assets/images/books-list.svg)
-- ![Single Book View](assets/images/book-single.svg)
+- ![Books Listing](assets/images/book%20listing%20page.png)
+- ![Single Book View](assets/images/single%20book%20page.png)
+- ![Admin Page](assets/images/book%20manager%20admin%20page.png)
 
-Place your screenshots in `wp-content/plugins/books-manager/assets/images/` and commit them to the repository. Replace the `.svg` files with real screenshots (same filenames) when ready, and I will update or add additional images as requested.
+Place any additional screenshot files in `wp-content/plugins/books-manager/assets/images/` and commit them to the repository.
