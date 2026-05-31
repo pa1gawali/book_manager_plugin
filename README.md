@@ -47,3 +47,12 @@ A WordPress plugin for managing a restricted Books collection.
 - `templates/single-book.php` — single book template
 - `templates/archive-book.php` — books archive template
 - `templates/shortcode-books-list.php` — listing shortcode template
+
+## Screenshots
+
+Add screenshots to `assets/images/` and they'll appear below. Replace the filenames with your actual screenshots.
+
+- ![Books Listing](assets/images/books-list.png)
+- ![Single Book View](assets/images/book-single.png)
+
+Place your screenshots in `wp-content/plugins/books-manager/assets/images/` and commit them to the repository. Once added I can update the README to point to the exact filenames if you prefer.
