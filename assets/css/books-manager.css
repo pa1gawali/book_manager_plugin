@@ -682,13 +682,32 @@ body .books-manager-list::before {
 /* SVG icons inside meta spans */
 .books-manager-meta-icon {
     display: inline-flex;
-    width: 1em;
-    height: 1em;
-    fill: currentColor;
-    opacity: .8;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
     flex-shrink: 0;
+    opacity: .85;
+    line-height: 1;
 }
-.books-manager-meta-icon svg { width: 100%; height: 100%; }
+
+.books-manager-meta-icon svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+    fill: currentColor;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.books-manager-meta-icon svg path,
+.books-manager-meta-icon svg rect,
+.books-manager-meta-icon svg circle,
+.books-manager-meta-icon svg polygon,
+.books-manager-meta-icon svg polyline,
+.books-manager-meta-icon svg ellipse {
+    fill: currentColor;
+}
 
 /* ─── Content divider + description ─────── */
 .books-manager-content {
